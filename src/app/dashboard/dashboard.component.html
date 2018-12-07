@@ -1,10 +1,10 @@
 <div class="container row">
-<div class="col s8">6-columns (one-half)</div>
-<div class="col s4">6-columns (one-half)</div>
+    <div class="col s6">
+        <app-list-posts *ngFor="let post of posts" [title]="post.title" [content]="post.content"></app-list-posts>
+    </div>
 </div>
 <div class="container">
     <a class=" btnAdd btn-floating btn-large waves-effect waves-light red bottom modal-trigger" href="#terms"><i class="material-icons">add</i></a>
 </div>
-<!-- Modal Trigger -->
 
 

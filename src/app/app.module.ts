@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ModalComponent } from './modal/modal.component';
+import { ListPostsComponent } from './list-posts/list-posts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DashboardComponent,
-    ModalComponent
+    ModalComponent,
+    ListPostsComponent
   ],
   imports: [
     BrowserModule,
